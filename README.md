@@ -4,6 +4,16 @@ A comprehensive full-stack task management and productivity application built wi
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue) ![MongoDB](https://img.shields.io/badge/MongoDB-6.0-green) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-cyan)
 
+## 🚀 Quick Deploy
+
+**Ready to deploy?** This application is optimized for deployment on [Vercel](https://vercel.com) (free tier available).
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/VenkateshAdusumalli/Scheduled-Dairy)
+
+📖 **[Read the full deployment guide →](DEPLOYMENT.md)**
+
+> **Note**: This app requires a server and database, so it **cannot** be deployed to GitHub Pages. Use Vercel, Netlify, or similar platforms. See [DEPLOYMENT.md](DEPLOYMENT.md) for details.
+
 ## ✨ Features
 
 ### 🗓️ Daily Task Scheduler
@@ -338,8 +348,13 @@ PORT=3001 npm run dev
 ### Vercel (Recommended)
 1. Push code to GitHub
 2. Import project in Vercel
-3. Add environment variables
+3. Add environment variables (see [DEPLOYMENT.md](DEPLOYMENT.md))
 4. Deploy
+
+**📖 [Complete Deployment Guide](DEPLOYMENT.md)** - Step-by-step instructions for Vercel, Netlify, Railway, and more.
+
+### Why Not GitHub Pages?
+This app uses server-side features (API routes, MongoDB, NextAuth) that require a Node.js server. GitHub Pages only supports static sites. See [DEPLOYMENT.md](DEPLOYMENT.md) for compatible platforms.
 
 ### Other Platforms
 - Ensure Node.js 18+ support

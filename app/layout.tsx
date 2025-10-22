@@ -4,7 +4,11 @@ import './globals.css'
 import { AuthProvider } from '@/components/providers/AuthProvider'
 import { Navbar } from '@/components/layout/Navbar'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ 
+  subsets: ['latin'],
+  display: 'swap',
+  fallback: ['system-ui', 'arial']
+})
 
 export const metadata: Metadata = {
   title: 'Scheduled Dairy - Task Management & Productivity',
